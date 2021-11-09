@@ -1,0 +1,54 @@
+body,html {
+    height :100%;
+    margin: 0;
+  cursor: url("../Skys/cursor.png"), pointer;
+}
+
+
+
+.background {
+    background-image: url(../Skys/background.jpg);
+    /* Full height */
+    height: 100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top{
+    margin-top: 50px;
+    padding-top: 20px;
+    display: inline-block; 
+    width: 500px;
+    height: 700px;
+background-color: #FF4A70;
+box-shadow: 0 0 20px yellow;}
+
+
+.name {
+    font-family: 'Fruktur', cursive;
+    font-size: 250% ;
+    color: aliceblue;
+    margin-bottom: 0px;
+}
+.email, .cell{
+    font-family: 'Lobster', cursive;
+    color:aliceblue;
+    letter-spacing: 2px;
+}
+.heart {
+    font-family: 'Fruktur', cursive;
+    font-size:xx-large;
+    color: black;
+}
+.main {
+    text-align: center;
+
+}
+
+.top img{
+    width:50%;
+    border-radius: 50%;
+}
